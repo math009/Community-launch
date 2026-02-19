@@ -22,9 +22,9 @@ from transport_plots import *
 from industry_plots import *
 
 # Call important files
-transport_file = os.path.join('..', '..', 'REMIND', 'Results_REMIND_JRC.csv')
-industry_path = os.path.join('..', 'Industry', 'Results_per_Country')
-final_output_path = os.path.join('..', '..', 'Outputs')
+transport_file = os.path.join('REMIND', 'Results_REMIND_JRC.csv')
+industry_path = os.path.join('Results_per_Country')
+final_output_path = os.path.join('Outputs')
 
 transport_data = load_transport_data(transport_file)
 industry_df = load_industry_data(industry_path)
